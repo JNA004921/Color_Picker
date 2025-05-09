@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker Project</title>
+    <link rel="stylesheet" href="Color.css">
+</head>
+<body>
+    <div class="color-box" id="colorBox"></div>
+    <p id="colorCode" style="font-size: 20px; margin-top: 20px; color: #333;">#ffffff</p>
+  <button onclick="changeColor()">Change Color</button>
+  <button onclick="copyColorCode()" style="margin-left: 10px; background-color: #28a745;">Copy Color Code</button>
+  <div id="toast" style="
+  visibility: hidden;
+  min-width: 250px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  transform: translateX(-50%);
+  font-size: 17px;
+">
+  Copied!
+</div>
+
+  <script src="Color_pic.js"></script>
+</body>
+</html>
